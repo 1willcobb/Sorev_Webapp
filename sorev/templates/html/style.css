@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* IDs */
+#nav_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4a373; /* light brown */
+  }
+  
+  #nav_left {
+    list-style: none;
+    background-color: #c3b091; /* khaki */
+  }
+
+  #nav_left li {
+    display: inline-block;
+  }
+
+  
+  #nav_right_login {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    background-color: #a58c68; /* brown */
+  }
+
+  #nav_right_login li {
+    display: inline-block;
+  }
+
+  
+  #WWD_card {
+    background-color: #8c8371; /* taupe */
+    display: flex;
+    flex-direction: column;
+  }
+
+  #WWD_wrapper {
+    background-color: #a27e37; /* taupe */
+    display: flex;
+    flex: 1;
+    width: 50%;
+    gap: 20px;
+  }
+
+
+  #values_wapper {
+    background-color: #6b4c3d; /* sienna */
+  }
+  
+  #contact_wrapper {
+    background-color: #a87d6b; /* copper */
+  }
+  
+  /* Elements */
+body {
+    background-color: rgb(155, 127, 101);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(75, 66, 58);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  nav {
+    background-color: #c5b8a3; /* beige */
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  header {
+    background-color: #af8d64; /* sandstone */
+  }
+  
+  section {
+    background-color: #b5a78f; /* oatmeal */
+  }
+  
+  a {
+    background-color: #91785d; /* rust */
+  }
+  
+  form {
+    background-color: #8f7e76; /* khaki-grey */
+  }
+  
+  footer {
+    background-color: #5e4c3f; /* dark brown */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+  }
+  
+  /* Classes */
+.cards_main {
+    background-color: rgb(182, 129, 83);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creator_img {
+background-color: #bda27f; /* camel */
+}
+  
